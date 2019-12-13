@@ -3,13 +3,15 @@ import json
 import csv
 import sys
 from pprint import pprint
-import pandas
+import pandas as pd
 from collections import defaultdict
-
+import re
+import ast
 
 class BusStationSpider(scrapy.Spider):
     name = "bus_station"
     allowed_domains = ['www.gspns.rs']
+    # Getting url from local bus company and scraping data for each bus
     start_urls = ['http://www.gspns.rs/mreza-get-stajalista-tacke?linija=1']
     lists = []
 
@@ -17,27 +19,39 @@ class BusStationSpider(scrapy.Spider):
         parsed_json = json.loads(response.body)
         # Split Data by PIPE ' | '
         split_by_pipe = [line.split('|') for line in parsed_json]
+        
 
         # Divide bus lines for each buss
-        busses = [x[0] for x in split_by_pipe]
+        buses = [x[0] for x in split_by_pipe]
+        print(buses[0])
+        parsed_buses = [x.split('],[') for x in buses]
+        #print(parsed_buses)
+        parseder_buses = [re.sub(r'[^a-zA-Z0-9 \n\.]', '', i) for i in parsed_buses[0] for j in i]
+
+       
+        print(parseder_buses)
 
         # Find Longtitude and Latitude
         longtitude = [x[1] for x in split_by_pipe]
         latitude = [x[2] for x in split_by_pipe]
-        #print(longtitude, latitude)
+        # Convert to list of floats
+        parsed_lon = [float(x) for x in longtitude]
+        parsed_lat = [float(x) for x in latitude]
+        #pprint (type(split_by_pipe))
 
         # Name of the Bus station
         name_of_bus_station = [x[3] for x in split_by_pipe]
-
+        
+       
         # Pair Data in dict
         result = defaultdict(dict)
-        for name_of_bus_station, b, ln, lg in zip(name_of_bus_station, busses, longtitude, latitude):
+        for name_of_bus_station, b, ln, lg in zip(name_of_bus_station, buses, parsed_lon, parsed_lat):
             result[name_of_bus_station] = {'busses': b, 'longtitude': ln, 'latitude': lg}
-        pprint (result)
+       # pprint (result)
 
         with open('data_json.json', 'w') as outfile:
             json.dump(result, outfile, indent=4)
-
+        #pprint(result)
         
         
 
