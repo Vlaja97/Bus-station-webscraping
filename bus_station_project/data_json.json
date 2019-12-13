@@ -1,0 +1,92 @@
+{
+    "USPENSKA - \u0160AFARIKOVA": {
+        "busses": "[1A],[1ZA],[3B],[8A],[19A]",
+        "longtitude": "19.8416504854",
+        "latitude": "45.255203707"
+    },
+    "BUL. MIHAJLA PUPINA - POTHODNIK": {
+        "busses": "[1A],[1ZA],[3B],[3AA],[4B],[6B],[8A],[12A],[18A],[19A]",
+        "longtitude": "19.844187",
+        "latitude": "45.253337"
+    },
+    "\u017dARKA ZRENJANINA - OP\u0160TINA": {
+        "busses": "[1A],[1ZA],[4B],[8A],[9B],[12A],[60B],[61B],[62B],[63B],[64B],[69B],[18A]",
+        "longtitude": "19.8471827488",
+        "latitude": "45.2524025428"
+    },
+    "BUL. CARA LAZARA - URBIS": {
+        "busses": "[1A],[1ZA],[4B],[8A],[9B],[11B],[18A]",
+        "longtitude": "19.8488525074",
+        "latitude": "45.2474414598"
+    },
+    "FRU\u0160KOGORSKA - NARODNOG FRONTA": {
+        "busses": "[1A],[1ZA],[8A]",
+        "longtitude": "19.8475310279",
+        "latitude": "45.2420582997"
+    },
+    "\u0160TRAND - OKRETNICA": {
+        "busses": "[1A],[1ZA],[8A]",
+        "longtitude": "19.84777609",
+        "latitude": "45.2386999087"
+    },
+    "SENTANDREJSKI PUT - ZMAJEVA\u010cKI PUT": {
+        "busses": "[1A],[1B],[1ZA],[19A],[19B]",
+        "longtitude": "19.8247023774",
+        "latitude": "45.3025717506"
+    },
+    "SENTANDREJSKI PUT - SAVSKA": {
+        "busses": "[1A],[1ZA],[19A],[35B],[35\u010cLB]",
+        "longtitude": "19.8226695053",
+        "latitude": "45.2997652739"
+    },
+    "SENTANDREJSKI PUT - VELEBITSKA": {
+        "busses": "[1A],[1ZA],[19A]",
+        "longtitude": "19.8223251106",
+        "latitude": "45.295793932"
+    },
+    "SENTANDREJSKI PUT - ZELENGORSKA": {
+        "busses": "[1A],[1ZA],[19A]",
+        "longtitude": "19.8237880279",
+        "latitude": "45.2916390663"
+    },
+    "SENTANDREJSKI PUT - DOLINSKA": {
+        "busses": "[1A],[1ZA],[19A],[35B],[35\u010cLB]",
+        "longtitude": "19.8247619009",
+        "latitude": "45.2888681125"
+    },
+    "SENTANDREJSKI PUT - OTOKARA KER\u0160OVANIJA": {
+        "busses": "[1A],[1ZA],[19A]",
+        "longtitude": "19.8256640401",
+        "latitude": "45.28628095"
+    },
+    "SENTANDREJSKI PUT - MOST KANAL DTD": {
+        "busses": "[1A],[1ZA],[15B],[19A],[35B],[35\u010cLB]",
+        "longtitude": "19.8268347377",
+        "latitude": "45.2828585422"
+    },
+    "SENTANDREJSKI PUT - BENZINSKA PUMPA": {
+        "busses": "[1A],[1ZA],[15B],[17A],[19A],[35B],[35\u010cLB]",
+        "longtitude": "19.8308548777",
+        "latitude": "45.2713036839"
+    },
+    "KISA\u010cKA - BUL. JA\u0160E TOMI\u0106A": {
+        "busses": "[1A],[1ZA],[11B],[17A],[19A],[21A],[22A],[23A],[24A],[30A]",
+        "longtitude": "19.8354809218",
+        "latitude": "45.2656954001"
+    },
+    "KISA\u010cKA - BUL. KRALJA PETRA I": {
+        "busses": "[1A],[1ZA],[8A],[17A],[19A],[21A]",
+        "longtitude": "19.8401023551",
+        "latitude": "45.2623699914"
+    },
+    "KISA\u010cKA - VUKA KARAD\u017dI\u0106A": {
+        "busses": "[1A],[1ZA],[8A],[17A],[19A]",
+        "longtitude": "19.8420940143",
+        "latitude": "45.2609612857"
+    },
+    "SENTANDREJSKI PUT - PARTIZANSKA": {
+        "busses": "[1A],[1ZA],[15B],[16B],[17A],[19A],[20B],[31B],[32B],[33B]",
+        "longtitude": "19.8317437287",
+        "latitude": "45.2687779267"
+    }
+}
