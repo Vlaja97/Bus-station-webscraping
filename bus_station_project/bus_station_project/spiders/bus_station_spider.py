@@ -23,13 +23,18 @@ class BusStationSpider(scrapy.Spider):
 
         # Divide bus lines for each buss
         buses = [x[0] for x in split_by_pipe]
-        print(buses[0])
-        parsed_buses = [x.split('],[') for x in buses]
-        #print(parsed_buses)
-        parseder_buses = [re.sub(r'[^a-zA-Z0-9 \n\.]', '', i) for i in parsed_buses[0] for j in i]
 
-       
-        print(parseder_buses)
+        #print(buses)
+       # parsed_buses = [x.strip('],[') for x in buses]
+        parsed_buses = [x.split(',') for x in buses]
+        #print(parsed_buses)
+        print ([re.sub(r'[[\]]', '', m[0]) for m in parsed_buses])
+        #print(parsed_buses)
+        print('------------------------------------')
+        #parseder_buses = bus.strip('][').split(',')
+        print(parsed_buses)
+        print(parsed_buses[0])
+        print(type(parsed_buses[0][0]))
 
         # Find Longtitude and Latitude
         longtitude = [x[1] for x in split_by_pipe]
