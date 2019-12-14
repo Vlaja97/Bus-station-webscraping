@@ -28,17 +28,7 @@ class BusStationSpider(scrapy.Spider):
        
         parsed_buses_temp = [x.split(',') for x in buses]
        
-        print('parsed buses temp split by comma')
-        print(parsed_buses_temp)
-        parsed_buses = []
-        for row in parsed_buses_temp:
-            for col in row:
-               parsed_buses = re.sub(r'[[\]]', '', col)
-               print(parsed_buses)
-            print('------------------------------------')
-        print('++++++++++++++++++++++++++++++++++==')
-        print(parsed_buses)
-        
+       
         
         # Find Longtitude and Latitude
         longtitude = [x[1] for x in split_by_pipe]
@@ -54,7 +44,7 @@ class BusStationSpider(scrapy.Spider):
        
         # Pair Data in dict
         result = defaultdict(dict)
-        for name_of_bus_station, b, ln, lg in zip(name_of_bus_station, buses, parsed_lon, parsed_lat):
+        for name_of_bus_station, b, ln, lg in zip(name_of_bus_station, parsed_buses_temp, parsed_lon, parsed_lat):
             result[name_of_bus_station] = {'busses': b, 'longtitude': ln, 'latitude': lg}
        # pprint (result)
 
