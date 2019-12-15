@@ -7,6 +7,7 @@ import pandas as pd
 from collections import defaultdict
 import re
 import ast
+import pickle
 
 class BusStationSpider(scrapy.Spider):
     name = "bus_station"
@@ -48,9 +49,9 @@ class BusStationSpider(scrapy.Spider):
         
 
 
-        with open('data_json.json', 'w') as outfile:
-            json.dump(result, outfile, indent=4)
-        #pprint(result)
+        with open('data.pickle', 'wb') as outfile:
+            pickle.dump(result, outfile)
+        pprint(result)
         
         
 
