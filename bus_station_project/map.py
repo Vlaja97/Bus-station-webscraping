@@ -30,7 +30,7 @@ with open('data.pickle', 'rb') as pickle_file:
 
   #print(list(df.columns.values))
   for i in range(0,len(data)):
-   folium.Marker([data[i][3], data[i][2]], popup='<strong>Location One</strong>', tooltip=tooltip).add_to(map)
+   folium.Marker([data[i][3], data[i][2]], popup=data[i][0], tooltip=tooltip).add_to(map)
 
   #for col in df:
   # print(col)
