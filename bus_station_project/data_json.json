@@ -1,17 +1,19 @@
-{
-    "USPENSKA - \u0160AFARIKOVA": {
-        "buses": [
+[
+    [
+        "USPENSKA - \u0160AFARIKOVA",
+        [
             "[1A]",
             "[1ZA]",
             "[3B]",
             "[8A]",
             "[19A]"
         ],
-        "longtitude": 19.8416504854,
-        "latitude": 45.255203707
-    },
-    "BUL. MIHAJLA PUPINA - POTHODNIK": {
-        "buses": [
+        19.8416504854,
+        45.255203707
+    ],
+    [
+        "BUL. MIHAJLA PUPINA - POTHODNIK",
+        [
             "[1A]",
             "[1ZA]",
             "[3B]",
@@ -23,11 +25,12 @@
             "[18A]",
             "[19A]"
         ],
-        "longtitude": 19.844187,
-        "latitude": 45.253337
-    },
-    "\u017dARKA ZRENJANINA - OP\u0160TINA": {
-        "buses": [
+        19.844187,
+        45.253337
+    ],
+    [
+        "\u017dARKA ZRENJANINA - OP\u0160TINA",
+        [
             "[1A]",
             "[1ZA]",
             "[4B]",
@@ -42,11 +45,12 @@
             "[69B]",
             "[18A]"
         ],
-        "longtitude": 19.8471827488,
-        "latitude": 45.2524025428
-    },
-    "BUL. CARA LAZARA - URBIS": {
-        "buses": [
+        19.8471827488,
+        45.2524025428
+    ],
+    [
+        "BUL. CARA LAZARA - URBIS",
+        [
             "[1A]",
             "[1ZA]",
             "[4B]",
@@ -55,89 +59,98 @@
             "[11B]",
             "[18A]"
         ],
-        "longtitude": 19.8488525074,
-        "latitude": 45.2474414598
-    },
-    "FRU\u0160KOGORSKA - NARODNOG FRONTA": {
-        "buses": [
+        19.8488525074,
+        45.2474414598
+    ],
+    [
+        "FRU\u0160KOGORSKA - NARODNOG FRONTA",
+        [
             "[1A]",
             "[1ZA]",
             "[8A]"
         ],
-        "longtitude": 19.8475310279,
-        "latitude": 45.2420582997
-    },
-    "\u0160TRAND - OKRETNICA": {
-        "buses": [
+        19.8475310279,
+        45.2420582997
+    ],
+    [
+        "\u0160TRAND - OKRETNICA",
+        [
             "[1A]",
             "[1ZA]",
             "[8A]"
         ],
-        "longtitude": 19.84777609,
-        "latitude": 45.2386999087
-    },
-    "SENTANDREJSKI PUT - ZMAJEVA\u010cKI PUT": {
-        "buses": [
+        19.84777609,
+        45.2386999087
+    ],
+    [
+        "SENTANDREJSKI PUT - ZMAJEVA\u010cKI PUT",
+        [
             "[1A]",
             "[1B]",
             "[1ZA]",
             "[19A]",
             "[19B]"
         ],
-        "longtitude": 19.8247023774,
-        "latitude": 45.3025717506
-    },
-    "SENTANDREJSKI PUT - SAVSKA": {
-        "buses": [
+        19.8247023774,
+        45.3025717506
+    ],
+    [
+        "SENTANDREJSKI PUT - SAVSKA",
+        [
             "[1A]",
             "[1ZA]",
             "[19A]",
             "[35B]",
             "[35\u010cLB]"
         ],
-        "longtitude": 19.8226695053,
-        "latitude": 45.2997652739
-    },
-    "SENTANDREJSKI PUT - VELEBITSKA": {
-        "buses": [
+        19.8226695053,
+        45.2997652739
+    ],
+    [
+        "SENTANDREJSKI PUT - VELEBITSKA",
+        [
             "[1A]",
             "[1ZA]",
             "[19A]"
         ],
-        "longtitude": 19.8223251106,
-        "latitude": 45.295793932
-    },
-    "SENTANDREJSKI PUT - ZELENGORSKA": {
-        "buses": [
+        19.8223251106,
+        45.295793932
+    ],
+    [
+        "SENTANDREJSKI PUT - ZELENGORSKA",
+        [
             "[1A]",
             "[1ZA]",
             "[19A]"
         ],
-        "longtitude": 19.8237880279,
-        "latitude": 45.2916390663
-    },
-    "SENTANDREJSKI PUT - DOLINSKA": {
-        "buses": [
+        19.8237880279,
+        45.2916390663
+    ],
+    [
+        "SENTANDREJSKI PUT - DOLINSKA",
+        [
             "[1A]",
             "[1ZA]",
             "[19A]",
             "[35B]",
             "[35\u010cLB]"
         ],
-        "longtitude": 19.8247619009,
-        "latitude": 45.2888681125
-    },
-    "SENTANDREJSKI PUT - OTOKARA KER\u0160OVANIJA": {
-        "buses": [
+        19.8247619009,
+        45.2888681125
+    ],
+    [
+        "SENTANDREJSKI PUT - OTOKARA KER\u0160OVANIJA",
+        [
             "[1A]",
             "[1ZA]",
             "[19A]"
         ],
-        "longtitude": 19.8256640401,
-        "latitude": 45.28628095
-    },
-    "SENTANDREJSKI PUT - MOST KANAL DTD": {
-        "buses": [
+        19.8256640401,
+        45.28628095
+    ],
+    [
+        "SENTANDREJSKI PUT - MOST KANAL DTD",
+        [
             "[1A]",
             "[1ZA]",
             "[15B]",
@@ -145,11 +158,12 @@
             "[35B]",
             "[35\u010cLB]"
         ],
-        "longtitude": 19.8268347377,
-        "latitude": 45.2828585422
-    },
-    "SENTANDREJSKI PUT - BENZINSKA PUMPA": {
-        "buses": [
+        19.8268347377,
+        45.2828585422
+    ],
+    [
+        "SENTANDREJSKI PUT - BENZINSKA PUMPA",
+        [
             "[1A]",
             "[1ZA]",
             "[15B]",
@@ -158,11 +172,12 @@
             "[35B]",
             "[35\u010cLB]"
         ],
-        "longtitude": 19.8308548777,
-        "latitude": 45.2713036839
-    },
-    "KISA\u010cKA - BUL. JA\u0160E TOMI\u0106A": {
-        "buses": [
+        19.8308548777,
+        45.2713036839
+    ],
+    [
+        "KISA\u010cKA - BUL. JA\u0160E TOMI\u0106A",
+        [
             "[1A]",
             "[1ZA]",
             "[11B]",
@@ -174,11 +189,12 @@
             "[24A]",
             "[30A]"
         ],
-        "longtitude": 19.8354809218,
-        "latitude": 45.2656954001
-    },
-    "KISA\u010cKA - BUL. KRALJA PETRA I": {
-        "buses": [
+        19.8354809218,
+        45.2656954001
+    ],
+    [
+        "KISA\u010cKA - BUL. KRALJA PETRA I",
+        [
             "[1A]",
             "[1ZA]",
             "[8A]",
@@ -186,22 +202,24 @@
             "[19A]",
             "[21A]"
         ],
-        "longtitude": 19.8401023551,
-        "latitude": 45.2623699914
-    },
-    "KISA\u010cKA - VUKA KARAD\u017dI\u0106A": {
-        "buses": [
+        19.8401023551,
+        45.2623699914
+    ],
+    [
+        "KISA\u010cKA - VUKA KARAD\u017dI\u0106A",
+        [
             "[1A]",
             "[1ZA]",
             "[8A]",
             "[17A]",
             "[19A]"
         ],
-        "longtitude": 19.8420940143,
-        "latitude": 45.2609612857
-    },
-    "SENTANDREJSKI PUT - PARTIZANSKA": {
-        "buses": [
+        19.8420940143,
+        45.2609612857
+    ],
+    [
+        "SENTANDREJSKI PUT - PARTIZANSKA",
+        [
             "[1A]",
             "[1ZA]",
             "[15B]",
@@ -213,7 +231,7 @@
             "[32B]",
             "[33B]"
         ],
-        "longtitude": 19.8317437287,
-        "latitude": 45.2687779267
-    }
-}
+        19.8317437287,
+        45.2687779267
+    ]
+]
