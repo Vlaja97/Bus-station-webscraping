@@ -20,17 +20,15 @@ class BusStationSpider(scrapy.Spider):
         parsed_json = json.loads(response.body)
         # Split Data by PIPE ' | '
         split_by_pipe = [line.split('|') for line in parsed_json]
-       # print(split_by_pipe)
 
         # Divide bus lines for each buss
         buses = [x[0] for x in split_by_pipe]
-        
         parsed_buses_temp = [x.split(',') for x in buses]
-        #print(parsed_buses_temp)
+
         # Find Longtitude and Latitude
         longtitude = [x[1] for x in split_by_pipe]
         latitude = [x[2] for x in split_by_pipe]
-        #print(latitude)
+    
         # Convert to list of floats
         parsed_lon = [float(x) for x in longtitude]
         parsed_lat = [float(x) for x in latitude]
@@ -40,18 +38,14 @@ class BusStationSpider(scrapy.Spider):
         name_of_bus_station = [x[3] for x in split_by_pipe]
         #print(longtitude)
   
-        # Pair Data in dict
-        #result = defaultdict(dict)
-        #for name_of_bus_station, b, ln, lg in zip(name_of_bus_station, parsed_buses_temp, parsed_lon, parsed_lat):
-         #   result[name_of_bus_station] = {1: b, 2: ln, 3: lg}
-        #pprint (result)
+        # Pair Data in Tuple
+        # Maybe is better to create Dictionaries!
         result = list(zip(name_of_bus_station,parsed_buses_temp,parsed_lon,parsed_lat))
         
 
-
         with open('data.pickle', 'wb') as outfile:
             pickle.dump(result, outfile)
-        pprint(result)
+        
         
         
 
