@@ -1,0 +1,468 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.5.1/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.5.1/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawcdn.githack.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_ffeade38e60c40d38f9360794af8b53a {
+                    position: relative;
+                    width: 75.0%;
+                    height: 75.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_ffeade38e60c40d38f9360794af8b53a" ></div>
+        
+</body>
+<script>    
+    
+            var map_ffeade38e60c40d38f9360794af8b53a = L.map(
+                "map_ffeade38e60c40d38f9360794af8b53a",
+                {
+                    center: [45.25167, 19.83694],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 15,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_fe280b66d5d04142bfa93fc63ab48f59 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_ffeade38e60c40d38f9360794af8b53a);
+        
+    
+            var marker_b31c58dd0ac947fa90efcbdd15d0ddae = L.marker(
+                [45.2608711975, 19.8423966225],
+                {}
+            ).addTo(map_ffeade38e60c40d38f9360794af8b53a);
+        
+    
+        var popup_6bd6ea9150cd4e03b52a90095301f9cb = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9ead503156a1424f9ff13c8168c70d52 = $(`<div id="html_9ead503156a1424f9ff13c8168c70d52" style="width: 100.0%; height: 100.0%;">KISAČKA - TEMERINSKA</div>`)[0];
+            popup_6bd6ea9150cd4e03b52a90095301f9cb.setContent(html_9ead503156a1424f9ff13c8168c70d52);
+        
+
+        marker_b31c58dd0ac947fa90efcbdd15d0ddae.bindPopup(popup_6bd6ea9150cd4e03b52a90095301f9cb)
+        ;
+
+        
+    
+    
+            marker_b31c58dd0ac947fa90efcbdd15d0ddae.bindTooltip(
+                `<div>
+                     Click For more Info
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_acf62bda638a4cbf9672afcf663935fc = L.marker(
+                [45.2652106325, 19.8364405487],
+                {}
+            ).addTo(map_ffeade38e60c40d38f9360794af8b53a);
+        
+    
+        var popup_5122b16ae09f451797311c0022833fed = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f9f9673862fc4f2280f3c035634b0025 = $(`<div id="html_f9f9673862fc4f2280f3c035634b0025" style="width: 100.0%; height: 100.0%;">KISAČKA - JOVANA CVIJIĆA</div>`)[0];
+            popup_5122b16ae09f451797311c0022833fed.setContent(html_f9f9673862fc4f2280f3c035634b0025);
+        
+
+        marker_acf62bda638a4cbf9672afcf663935fc.bindPopup(popup_5122b16ae09f451797311c0022833fed)
+        ;
+
+        
+    
+    
+            marker_acf62bda638a4cbf9672afcf663935fc.bindTooltip(
+                `<div>
+                     Click For more Info
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_082e9d86bce64b77b2339d7da92efd4f = L.marker(
+                [45.2650202834, 19.830132455],
+                {}
+            ).addTo(map_ffeade38e60c40d38f9360794af8b53a);
+        
+    
+        var popup_d93572907ad74cf4bc696f6330b0940b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_74a654ccf1a5406ca11d76e052fb1de8 = $(`<div id="html_74a654ccf1a5406ca11d76e052fb1de8" style="width: 100.0%; height: 100.0%;">ŽELEZNIČKA STANICA - DOLASCI</div>`)[0];
+            popup_d93572907ad74cf4bc696f6330b0940b.setContent(html_74a654ccf1a5406ca11d76e052fb1de8);
+        
+
+        marker_082e9d86bce64b77b2339d7da92efd4f.bindPopup(popup_d93572907ad74cf4bc696f6330b0940b)
+        ;
+
+        
+    
+    
+            marker_082e9d86bce64b77b2339d7da92efd4f.bindTooltip(
+                `<div>
+                     Click For more Info
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f543b8c686fe4d13aca6d3e1b19a028c = L.marker(
+                [45.2696690854, 19.8421271396],
+                {}
+            ).addTo(map_ffeade38e60c40d38f9360794af8b53a);
+        
+    
+        var popup_acc9546c28f64a9bbcc5e8d3db53638d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_75b0ace4dd2e4e2bb0b8832c434a3ed5 = $(`<div id="html_75b0ace4dd2e4e2bb0b8832c434a3ed5" style="width: 100.0%; height: 100.0%;">TEMERINSKA - PARTIZANSKA</div>`)[0];
+            popup_acc9546c28f64a9bbcc5e8d3db53638d.setContent(html_75b0ace4dd2e4e2bb0b8832c434a3ed5);
+        
+
+        marker_f543b8c686fe4d13aca6d3e1b19a028c.bindPopup(popup_acc9546c28f64a9bbcc5e8d3db53638d)
+        ;
+
+        
+    
+    
+            marker_f543b8c686fe4d13aca6d3e1b19a028c.bindTooltip(
+                `<div>
+                     Click For more Info
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_95f6909a21534ceab5792622da09d8fa = L.marker(
+                [45.3093188521, 19.8969594834],
+                {}
+            ).addTo(map_ffeade38e60c40d38f9360794af8b53a);
+        
+    
+        var popup_6e093904d6b246708a6d944c2ccae319 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6d90b098b3a44fd89c7d574544c48877 = $(`<div id="html_6d90b098b3a44fd89c7d574544c48877" style="width: 100.0%; height: 100.0%;">PUT NS - ZR - AUTOSALON KIA</div>`)[0];
+            popup_6e093904d6b246708a6d944c2ccae319.setContent(html_6d90b098b3a44fd89c7d574544c48877);
+        
+
+        marker_95f6909a21534ceab5792622da09d8fa.bindPopup(popup_6e093904d6b246708a6d944c2ccae319)
+        ;
+
+        
+    
+    
+            marker_95f6909a21534ceab5792622da09d8fa.bindTooltip(
+                `<div>
+                     Click For more Info
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_93f2e98d72534881b30b89bf8228bd9d = L.marker(
+                [45.2983090783, 19.8557151201],
+                {}
+            ).addTo(map_ffeade38e60c40d38f9360794af8b53a);
+        
+    
+        var popup_0e42a186ce81425e80b67368820625b7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_bec09e630cdd42f3a96eb6d5862e4664 = $(`<div id="html_bec09e630cdd42f3a96eb6d5862e4664" style="width: 100.0%; height: 100.0%;">INDUSTRIJSKA ZONA VELIKI RIT</div>`)[0];
+            popup_0e42a186ce81425e80b67368820625b7.setContent(html_bec09e630cdd42f3a96eb6d5862e4664);
+        
+
+        marker_93f2e98d72534881b30b89bf8228bd9d.bindPopup(popup_0e42a186ce81425e80b67368820625b7)
+        ;
+
+        
+    
+    
+            marker_93f2e98d72534881b30b89bf8228bd9d.bindTooltip(
+                `<div>
+                     Click For more Info
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_d02c6b28b45c44afb72c85ce3935b6bd = L.marker(
+                [45.2807541595, 19.8506658724],
+                {}
+            ).addTo(map_ffeade38e60c40d38f9360794af8b53a);
+        
+    
+        var popup_87d2160592724b3bb6c67ea134c817d0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_94e5332831d24d908276fc82571abb17 = $(`<div id="html_94e5332831d24d908276fc82571abb17" style="width: 100.0%; height: 100.0%;">NAFTAGAS</div>`)[0];
+            popup_87d2160592724b3bb6c67ea134c817d0.setContent(html_94e5332831d24d908276fc82571abb17);
+        
+
+        marker_d02c6b28b45c44afb72c85ce3935b6bd.bindPopup(popup_87d2160592724b3bb6c67ea134c817d0)
+        ;
+
+        
+    
+    
+            marker_d02c6b28b45c44afb72c85ce3935b6bd.bindTooltip(
+                `<div>
+                     Click For more Info
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_7eff8c389a6148888c362afe0428f205 = L.marker(
+                [45.2959976022, 19.950544978],
+                {}
+            ).addTo(map_ffeade38e60c40d38f9360794af8b53a);
+        
+    
+        var popup_3190f93e7bb5402eba0f54b4acd525e1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5eff94025e194f15aa4af3f728bcc350 = $(`<div id="html_5eff94025e194f15aa4af3f728bcc350" style="width: 100.0%; height: 100.0%;">KAĆ - OKRETNICA</div>`)[0];
+            popup_3190f93e7bb5402eba0f54b4acd525e1.setContent(html_5eff94025e194f15aa4af3f728bcc350);
+        
+
+        marker_7eff8c389a6148888c362afe0428f205.bindPopup(popup_3190f93e7bb5402eba0f54b4acd525e1)
+        ;
+
+        
+    
+    
+            marker_7eff8c389a6148888c362afe0428f205.bindTooltip(
+                `<div>
+                     Click For more Info
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_3417c3011bd141e089e3e73e7dab0619 = L.marker(
+                [45.3010233903, 19.9535707453],
+                {}
+            ).addTo(map_ffeade38e60c40d38f9360794af8b53a);
+        
+    
+        var popup_2b19b4d3ab054c2b89509cb48d321568 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_343ed79a1d5944b3bfc57e7ff9247022 = $(`<div id="html_343ed79a1d5944b3bfc57e7ff9247022" style="width: 100.0%; height: 100.0%;">KAĆ - ŽARKA JOVIĆA 51</div>`)[0];
+            popup_2b19b4d3ab054c2b89509cb48d321568.setContent(html_343ed79a1d5944b3bfc57e7ff9247022);
+        
+
+        marker_3417c3011bd141e089e3e73e7dab0619.bindPopup(popup_2b19b4d3ab054c2b89509cb48d321568)
+        ;
+
+        
+    
+    
+            marker_3417c3011bd141e089e3e73e7dab0619.bindTooltip(
+                `<div>
+                     Click For more Info
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_33d31ec009bb47ce93dc495c16bae46f = L.marker(
+                [45.3024765887, 19.9506250486],
+                {}
+            ).addTo(map_ffeade38e60c40d38f9360794af8b53a);
+        
+    
+        var popup_a1b3f10620b043169b2a9d9ac4fe440b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1d15781f2b2a40919437874f77ae5be1 = $(`<div id="html_1d15781f2b2a40919437874f77ae5be1" style="width: 100.0%; height: 100.0%;">KAĆ - ŽARKA JOVIĆA 31</div>`)[0];
+            popup_a1b3f10620b043169b2a9d9ac4fe440b.setContent(html_1d15781f2b2a40919437874f77ae5be1);
+        
+
+        marker_33d31ec009bb47ce93dc495c16bae46f.bindPopup(popup_a1b3f10620b043169b2a9d9ac4fe440b)
+        ;
+
+        
+    
+    
+            marker_33d31ec009bb47ce93dc495c16bae46f.bindTooltip(
+                `<div>
+                     Click For more Info
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b50f78e5ccb34d349c47604ef2a7fb57 = L.marker(
+                [45.3059252362, 19.9431578742],
+                {}
+            ).addTo(map_ffeade38e60c40d38f9360794af8b53a);
+        
+    
+        var popup_d3c5e500937e4e66a628b69c25aa179b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_73b52835693346f180911c01ca95b49b = $(`<div id="html_73b52835693346f180911c01ca95b49b" style="width: 100.0%; height: 100.0%;">KAĆ - MOŠE PIJADE 4</div>`)[0];
+            popup_d3c5e500937e4e66a628b69c25aa179b.setContent(html_73b52835693346f180911c01ca95b49b);
+        
+
+        marker_b50f78e5ccb34d349c47604ef2a7fb57.bindPopup(popup_d3c5e500937e4e66a628b69c25aa179b)
+        ;
+
+        
+    
+    
+            marker_b50f78e5ccb34d349c47604ef2a7fb57.bindTooltip(
+                `<div>
+                     Click For more Info
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_7e7e5f218d7a4d5d8836871c9d139259 = L.marker(
+                [45.3094886413, 19.9344719012],
+                {}
+            ).addTo(map_ffeade38e60c40d38f9360794af8b53a);
+        
+    
+        var popup_02de2fd308b649efb5f66299b8750d82 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e3cfe9052c3f41aeb4677123d3da1950 = $(`<div id="html_e3cfe9052c3f41aeb4677123d3da1950" style="width: 100.0%; height: 100.0%;">KAĆ - MOŠE PIJADE 72</div>`)[0];
+            popup_02de2fd308b649efb5f66299b8750d82.setContent(html_e3cfe9052c3f41aeb4677123d3da1950);
+        
+
+        marker_7e7e5f218d7a4d5d8836871c9d139259.bindPopup(popup_02de2fd308b649efb5f66299b8750d82)
+        ;
+
+        
+    
+    
+            marker_7e7e5f218d7a4d5d8836871c9d139259.bindTooltip(
+                `<div>
+                     Click For more Info
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_aebf49c01b3c473d9db22e97f30d59d0 = L.marker(
+                [45.3111742702, 19.9303352779],
+                {}
+            ).addTo(map_ffeade38e60c40d38f9360794af8b53a);
+        
+    
+        var popup_2ece1c3284094f1299979b2fdc4c7b42 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_81ed3491a27e4e73aaf78c0a12b74e00 = $(`<div id="html_81ed3491a27e4e73aaf78c0a12b74e00" style="width: 100.0%; height: 100.0%;">KAĆ - MOŠE PIJADE 104</div>`)[0];
+            popup_2ece1c3284094f1299979b2fdc4c7b42.setContent(html_81ed3491a27e4e73aaf78c0a12b74e00);
+        
+
+        marker_aebf49c01b3c473d9db22e97f30d59d0.bindPopup(popup_2ece1c3284094f1299979b2fdc4c7b42)
+        ;
+
+        
+    
+    
+            marker_aebf49c01b3c473d9db22e97f30d59d0.bindTooltip(
+                `<div>
+                     Click For more Info
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_38f525976cd54d0bb6403bde57d57939 = L.marker(
+                [45.3106187151, 19.9269933654],
+                {}
+            ).addTo(map_ffeade38e60c40d38f9360794af8b53a);
+        
+    
+        var popup_c0805b8b62b1425b9b2c95c8313defa5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_576cc57ad2f34447af52396197f39be3 = $(`<div id="html_576cc57ad2f34447af52396197f39be3" style="width: 100.0%; height: 100.0%;">KAĆ - SIME ŠOLAJE 65</div>`)[0];
+            popup_c0805b8b62b1425b9b2c95c8313defa5.setContent(html_576cc57ad2f34447af52396197f39be3);
+        
+
+        marker_38f525976cd54d0bb6403bde57d57939.bindPopup(popup_c0805b8b62b1425b9b2c95c8313defa5)
+        ;
+
+        
+    
+    
+            marker_38f525976cd54d0bb6403bde57d57939.bindTooltip(
+                `<div>
+                     Click For more Info
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_98a1210013394d849e78c1bdaadfa1d2 = L.marker(
+                [45.3052508207, 19.9229169589],
+                {}
+            ).addTo(map_ffeade38e60c40d38f9360794af8b53a);
+        
+    
+        var popup_1709a950580b49e79b6d99dcef9c907d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9b491d3ae154440788cb766a863b6182 = $(`<div id="html_9b491d3ae154440788cb766a863b6182" style="width: 100.0%; height: 100.0%;">KAĆ - SIME ŠOLAJE 1</div>`)[0];
+            popup_1709a950580b49e79b6d99dcef9c907d.setContent(html_9b491d3ae154440788cb766a863b6182);
+        
+
+        marker_98a1210013394d849e78c1bdaadfa1d2.bindPopup(popup_1709a950580b49e79b6d99dcef9c907d)
+        ;
+
+        
+    
+    
+            marker_98a1210013394d849e78c1bdaadfa1d2.bindTooltip(
+                `<div>
+                     Click For more Info
+                 </div>`,
+                {"sticky": true}
+            );
+        
+</script>

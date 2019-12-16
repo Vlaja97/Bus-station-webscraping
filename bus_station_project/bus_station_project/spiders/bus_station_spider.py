@@ -12,7 +12,7 @@ class BusStationSpider(scrapy.Spider):
     name = "bus_station"
     allowed_domains = ['www.gspns.rs']
     # Getting url from local bus company and scraping data for each bus
-    start_urls = ['http://www.gspns.rs/mreza-get-stajalista-tacke?linija=16']
+    start_urls = ['http://www.gspns.rs/mreza-get-stajalista-tacke?linija=1']
     lists = []
     for url in start_urls:
         def parse(self, response):
@@ -40,7 +40,7 @@ class BusStationSpider(scrapy.Spider):
             # Maybe is better to create Dictionaries!
             result = list(zip(name_of_bus_station,parsed_buses_temp,parsed_lon,parsed_lat))
             
-            with open('data.pickle', 'wb') as outfile:
+            with open(r'bus_station_django_project\data.pickle', 'wb') as outfile:
                 pickle.dump(result, outfile)
         
         

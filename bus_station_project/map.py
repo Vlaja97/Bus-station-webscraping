@@ -19,4 +19,4 @@ with open('data.pickle', 'rb') as pickle_file:
   for i in range(0,len(data)):
     folium.Marker([data[i][3], data[i][2]], popup=data[i][0], tooltip=tooltip).add_to(map)
 
-  map.save('map.html')
+  map.save(r'C:\Users\wlajk\Documents\Projects\bus-staion-webscraping\Bus-station-webscraping\bus_station_project\bus_station_django_project\bus_station_app\templates\map.html')
