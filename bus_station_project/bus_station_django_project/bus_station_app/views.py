@@ -13,7 +13,6 @@ def base(request):
 def show_map(request):
     with open('data.pickle', 'rb') as pickle_file:
         data = pickle.load(pickle_file)
-        print(data)
         # Creating Folium map
         map = folium.Map(location=[45.251670,19.836940], zoom_start=15,width='75%', height='75%')
         tooltip = 'Click For more Info'
