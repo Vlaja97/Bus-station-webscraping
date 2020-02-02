@@ -1,0 +1,1035 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.5.1/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.5.1/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawcdn.githack.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_a1a69466bbdf459596bac67261157d20 {
+                    position: relative;
+                    width: 75.0%;
+                    height: 75.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_a1a69466bbdf459596bac67261157d20" ></div>
+        
+</body>
+<script>    
+    
+            var map_a1a69466bbdf459596bac67261157d20 = L.map(
+                "map_a1a69466bbdf459596bac67261157d20",
+                {
+                    center: [45.25167, 19.83694],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 15,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_b7e83de9b0114ee3b97870e83d13c30d = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_a1a69466bbdf459596bac67261157d20);
+        
+    
+            var marker_8fb319f8a334415983e307ca54d526ff = L.marker(
+                [19.8366307617, 45.2528681592],
+                {}
+            ).addTo(map_a1a69466bbdf459596bac67261157d20);
+        
+    
+        var popup_bf071f2a1154403387eac39916864678 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2cab082fb43046b99eb93a3720206884 = $(`<div id="html_2cab082fb43046b99eb93a3720206884" style="width: 100.0%; height: 100.0%;">BUL. OSLOBOĐENJA - FUTOŠKA PIJACA</div>`)[0];
+            popup_bf071f2a1154403387eac39916864678.setContent(html_2cab082fb43046b99eb93a3720206884);
+        
+
+        marker_8fb319f8a334415983e307ca54d526ff.bindPopup(popup_bf071f2a1154403387eac39916864678)
+        ;
+
+        
+    
+    
+            marker_8fb319f8a334415983e307ca54d526ff.bindTooltip(
+                `<div>
+                     Click For more Info
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_175b3c05f0a247ecbed05395999e04b9 = L.marker(
+                [19.8083415635, 45.247517576],
+                {}
+            ).addTo(map_a1a69466bbdf459596bac67261157d20);
+        
+    
+        var popup_20c1385a1b0f469a976b445ff2213001 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d387daac125242ecac4a62dbc84e8974 = $(`<div id="html_d387daac125242ecac4a62dbc84e8974" style="width: 100.0%; height: 100.0%;">FUTOŠKI PUT - VRŠAČKA</div>`)[0];
+            popup_20c1385a1b0f469a976b445ff2213001.setContent(html_d387daac125242ecac4a62dbc84e8974);
+        
+
+        marker_175b3c05f0a247ecbed05395999e04b9.bindPopup(popup_20c1385a1b0f469a976b445ff2213001)
+        ;
+
+        
+    
+    
+            marker_175b3c05f0a247ecbed05395999e04b9.bindTooltip(
+                `<div>
+                     Click For more Info
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_631d356081764c5d82a69a1352dcaba3 = L.marker(
+                [19.744452, 45.251508],
+                {}
+            ).addTo(map_a1a69466bbdf459596bac67261157d20);
+        
+    
+        var popup_42d3f6a1370e443594934fdc8aba6ffd = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8c06688251d5492b871b61b9738c1b42 = $(`<div id="html_8c06688251d5492b871b61b9738c1b42" style="width: 100.0%; height: 100.0%;">VETERNIK-ŠKOLSKA-BRAĆE TOKIN</div>`)[0];
+            popup_42d3f6a1370e443594934fdc8aba6ffd.setContent(html_8c06688251d5492b871b61b9738c1b42);
+        
+
+        marker_631d356081764c5d82a69a1352dcaba3.bindPopup(popup_42d3f6a1370e443594934fdc8aba6ffd)
+        ;
+
+        
+    
+    
+            marker_631d356081764c5d82a69a1352dcaba3.bindTooltip(
+                `<div>
+                     Click For more Info
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_e0cbcf34ed3a4062b7944b09d3574cdb = L.marker(
+                [19.8252968807, 45.2491656314],
+                {}
+            ).addTo(map_a1a69466bbdf459596bac67261157d20);
+        
+    
+        var popup_e47fe3844a924b88ba9833de0f5ff133 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3349c0672cf14f26a31588f72587bfe6 = $(`<div id="html_3349c0672cf14f26a31588f72587bfe6" style="width: 100.0%; height: 100.0%;">FUTOŠKA - CARA DUŠANA</div>`)[0];
+            popup_e47fe3844a924b88ba9833de0f5ff133.setContent(html_3349c0672cf14f26a31588f72587bfe6);
+        
+
+        marker_e0cbcf34ed3a4062b7944b09d3574cdb.bindPopup(popup_e47fe3844a924b88ba9833de0f5ff133)
+        ;
+
+        
+    
+    
+            marker_e0cbcf34ed3a4062b7944b09d3574cdb.bindTooltip(
+                `<div>
+                     Click For more Info
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_ffd6cd5f9d454777a4be5150283112c2 = L.marker(
+                [19.79550631, 45.2445958159],
+                {}
+            ).addTo(map_a1a69466bbdf459596bac67261157d20);
+        
+    
+        var popup_ab109fcf6f7642f789584c446958399d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a668f3ab57734c99af4fcf81ba00524f = $(`<div id="html_a668f3ab57734c99af4fcf81ba00524f" style="width: 100.0%; height: 100.0%;">FUTOŠKI PUT - BUL. PATRIJAHA PAVLA</div>`)[0];
+            popup_ab109fcf6f7642f789584c446958399d.setContent(html_a668f3ab57734c99af4fcf81ba00524f);
+        
+
+        marker_ffd6cd5f9d454777a4be5150283112c2.bindPopup(popup_ab109fcf6f7642f789584c446958399d)
+        ;
+
+        
+    
+    
+            marker_ffd6cd5f9d454777a4be5150283112c2.bindTooltip(
+                `<div>
+                     Click For more Info
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_ead3947f305042039b3e1a2a2b01cf19 = L.marker(
+                [19.8010162498, 45.24628254],
+                {}
+            ).addTo(map_a1a69466bbdf459596bac67261157d20);
+        
+    
+        var popup_0d0d010f578a4f70a405ae61ce06342f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5d76625019e54830968d31ba6c7eded8 = $(`<div id="html_5d76625019e54830968d31ba6c7eded8" style="width: 100.0%; height: 100.0%;">FUTOŠKI PUT - SATELITSKA PIJACA</div>`)[0];
+            popup_0d0d010f578a4f70a405ae61ce06342f.setContent(html_5d76625019e54830968d31ba6c7eded8);
+        
+
+        marker_ead3947f305042039b3e1a2a2b01cf19.bindPopup(popup_0d0d010f578a4f70a405ae61ce06342f)
+        ;
+
+        
+    
+    
+            marker_ead3947f305042039b3e1a2a2b01cf19.bindTooltip(
+                `<div>
+                     Click For more Info
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_c96671a5ca794eaa82a9445e55480eee = L.marker(
+                [19.8177958089, 45.2488161894],
+                {}
+            ).addTo(map_a1a69466bbdf459596bac67261157d20);
+        
+    
+        var popup_a7202fec0e6340e183ad8e2c3dcf235b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_bf546a544ec847b7b8e795e399403b24 = $(`<div id="html_bf546a544ec847b7b8e795e399403b24" style="width: 100.0%; height: 100.0%;">FUTOŠKA - HIGIJENSKI ZAVOD</div>`)[0];
+            popup_a7202fec0e6340e183ad8e2c3dcf235b.setContent(html_bf546a544ec847b7b8e795e399403b24);
+        
+
+        marker_c96671a5ca794eaa82a9445e55480eee.bindPopup(popup_a7202fec0e6340e183ad8e2c3dcf235b)
+        ;
+
+        
+    
+    
+            marker_c96671a5ca794eaa82a9445e55480eee.bindTooltip(
+                `<div>
+                     Click For more Info
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_7eb54b5772ad464587c0e548135cebaa = L.marker(
+                [19.8300215701, 45.2490835157],
+                {}
+            ).addTo(map_a1a69466bbdf459596bac67261157d20);
+        
+    
+        var popup_e272e12c3b3f4dcdae1dc8295da2189b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_fef416e78e4048ee9fbf7d28aaea49f7 = $(`<div id="html_fef416e78e4048ee9fbf7d28aaea49f7" style="width: 100.0%; height: 100.0%;">FUTOŠKA - ANTONA ČEHOVA</div>`)[0];
+            popup_e272e12c3b3f4dcdae1dc8295da2189b.setContent(html_fef416e78e4048ee9fbf7d28aaea49f7);
+        
+
+        marker_7eb54b5772ad464587c0e548135cebaa.bindPopup(popup_e272e12c3b3f4dcdae1dc8295da2189b)
+        ;
+
+        
+    
+    
+            marker_7eb54b5772ad464587c0e548135cebaa.bindTooltip(
+                `<div>
+                     Click For more Info
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_a13f6a26a555485db1056c0646871f67 = L.marker(
+                [19.8079135339, 45.2712216153],
+                {}
+            ).addTo(map_a1a69466bbdf459596bac67261157d20);
+        
+    
+        var popup_519bb79df8da4b1db1fd62bcbd02cea0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0d5f087cc8a346bdb5295edc7c68fac7 = $(`<div id="html_0d5f087cc8a346bdb5295edc7c68fac7" style="width: 100.0%; height: 100.0%;">RUMENAČKI PUT - AVIJATIČARSKA</div>`)[0];
+            popup_519bb79df8da4b1db1fd62bcbd02cea0.setContent(html_0d5f087cc8a346bdb5295edc7c68fac7);
+        
+
+        marker_a13f6a26a555485db1056c0646871f67.bindPopup(popup_519bb79df8da4b1db1fd62bcbd02cea0)
+        ;
+
+        
+    
+    
+            marker_a13f6a26a555485db1056c0646871f67.bindTooltip(
+                `<div>
+                     Click For more Info
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_7854507aa35745bab3f66c418fe8cb67 = L.marker(
+                [19.8308756864, 45.2647337316],
+                {}
+            ).addTo(map_a1a69466bbdf459596bac67261157d20);
+        
+    
+        var popup_bfcdf592b8b24d168d3dea24cee55023 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_649dd5e4af58463cacc5b3b723b0e84d = $(`<div id="html_649dd5e4af58463cacc5b3b723b0e84d" style="width: 100.0%; height: 100.0%;">ŽELEZNIČKA STANICA</div>`)[0];
+            popup_bfcdf592b8b24d168d3dea24cee55023.setContent(html_649dd5e4af58463cacc5b3b723b0e84d);
+        
+
+        marker_7854507aa35745bab3f66c418fe8cb67.bindPopup(popup_bfcdf592b8b24d168d3dea24cee55023)
+        ;
+
+        
+    
+    
+            marker_7854507aa35745bab3f66c418fe8cb67.bindTooltip(
+                `<div>
+                     Click For more Info
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_c02da5eb06224db4a002f75dd3b4e242 = L.marker(
+                [19.8318492939, 45.2613766166],
+                {}
+            ).addTo(map_a1a69466bbdf459596bac67261157d20);
+        
+    
+        var popup_ec55c6b15ff241feaf351eddc15b52fb = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b81fae96c7884b098fb6aabfb25e043b = $(`<div id="html_b81fae96c7884b098fb6aabfb25e043b" style="width: 100.0%; height: 100.0%;">BUL. OSLOBOĐENJA - KRALJA PETRA I</div>`)[0];
+            popup_ec55c6b15ff241feaf351eddc15b52fb.setContent(html_b81fae96c7884b098fb6aabfb25e043b);
+        
+
+        marker_c02da5eb06224db4a002f75dd3b4e242.bindPopup(popup_ec55c6b15ff241feaf351eddc15b52fb)
+        ;
+
+        
+    
+    
+            marker_c02da5eb06224db4a002f75dd3b4e242.bindTooltip(
+                `<div>
+                     Click For more Info
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_1e81fbd30f5640cb87ca490c5f6e629d = L.marker(
+                [19.8308756864, 45.2647337316],
+                {}
+            ).addTo(map_a1a69466bbdf459596bac67261157d20);
+        
+    
+        var popup_36399894287f4a868f454f30d5f4e021 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4888868b028a4c1088a515a9f619d3ef = $(`<div id="html_4888868b028a4c1088a515a9f619d3ef" style="width: 100.0%; height: 100.0%;">ŽELEZNIČKA STANICA</div>`)[0];
+            popup_36399894287f4a868f454f30d5f4e021.setContent(html_4888868b028a4c1088a515a9f619d3ef);
+        
+
+        marker_1e81fbd30f5640cb87ca490c5f6e629d.bindPopup(popup_36399894287f4a868f454f30d5f4e021)
+        ;
+
+        
+    
+    
+            marker_1e81fbd30f5640cb87ca490c5f6e629d.bindTooltip(
+                `<div>
+                     Click For more Info
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_24e9f5a2a82d4a64b3f02e244fc4903d = L.marker(
+                [19.7998638594, 45.2759310771],
+                {}
+            ).addTo(map_a1a69466bbdf459596bac67261157d20);
+        
+    
+        var popup_c1b63c951ffd49ad902a51e391bddcff = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a0340f39a40b4e37aa4ddc55ae0e9096 = $(`<div id="html_a0340f39a40b4e37aa4ddc55ae0e9096" style="width: 100.0%; height: 100.0%;">RUMENAČKI PUT - KRUŽNI TOK</div>`)[0];
+            popup_c1b63c951ffd49ad902a51e391bddcff.setContent(html_a0340f39a40b4e37aa4ddc55ae0e9096);
+        
+
+        marker_24e9f5a2a82d4a64b3f02e244fc4903d.bindPopup(popup_c1b63c951ffd49ad902a51e391bddcff)
+        ;
+
+        
+    
+    
+            marker_24e9f5a2a82d4a64b3f02e244fc4903d.bindTooltip(
+                `<div>
+                     Click For more Info
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_86cfe29471164b9faf0b46eda881dccb = L.marker(
+                [19.7937338396, 45.2785344884],
+                {}
+            ).addTo(map_a1a69466bbdf459596bac67261157d20);
+        
+    
+        var popup_56a0b0db11f04eec9ac3d38f965c31b8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9de9c2fbe15e44e1baf09f6d5a678aad = $(`<div id="html_9de9c2fbe15e44e1baf09f6d5a678aad" style="width: 100.0%; height: 100.0%;">RUMENAČKI PUT - GRADSKO GROBLJE</div>`)[0];
+            popup_56a0b0db11f04eec9ac3d38f965c31b8.setContent(html_9de9c2fbe15e44e1baf09f6d5a678aad);
+        
+
+        marker_86cfe29471164b9faf0b46eda881dccb.bindPopup(popup_56a0b0db11f04eec9ac3d38f965c31b8)
+        ;
+
+        
+    
+    
+            marker_86cfe29471164b9faf0b46eda881dccb.bindTooltip(
+                `<div>
+                     Click For more Info
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_1be916557bd848338ddd4350b5a62ea9 = L.marker(
+                [19.7896525102, 45.2778935404],
+                {}
+            ).addTo(map_a1a69466bbdf459596bac67261157d20);
+        
+    
+        var popup_a3c83c20629f47839ae2851ddde914c4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_99a57ba6d27f47ccb471d50b06d3eafc = $(`<div id="html_99a57ba6d27f47ccb471d50b06d3eafc" style="width: 100.0%; height: 100.0%;">SAJLOVO I</div>`)[0];
+            popup_a3c83c20629f47839ae2851ddde914c4.setContent(html_99a57ba6d27f47ccb471d50b06d3eafc);
+        
+
+        marker_1be916557bd848338ddd4350b5a62ea9.bindPopup(popup_a3c83c20629f47839ae2851ddde914c4)
+        ;
+
+        
+    
+    
+            marker_1be916557bd848338ddd4350b5a62ea9.bindTooltip(
+                `<div>
+                     Click For more Info
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_65272d8e928044c69dfb70a943fe83c1 = L.marker(
+                [19.7865491723, 45.2751092444],
+                {}
+            ).addTo(map_a1a69466bbdf459596bac67261157d20);
+        
+    
+        var popup_37b20c44e40d4409b76c975d772ab25e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4fc2faa6f6894bde83ac2318627048e0 = $(`<div id="html_4fc2faa6f6894bde83ac2318627048e0" style="width: 100.0%; height: 100.0%;">SAJLOVO II</div>`)[0];
+            popup_37b20c44e40d4409b76c975d772ab25e.setContent(html_4fc2faa6f6894bde83ac2318627048e0);
+        
+
+        marker_65272d8e928044c69dfb70a943fe83c1.bindPopup(popup_37b20c44e40d4409b76c975d772ab25e)
+        ;
+
+        
+    
+    
+            marker_65272d8e928044c69dfb70a943fe83c1.bindTooltip(
+                `<div>
+                     Click For more Info
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_0e16725106aa4f3eab055748fa13fe86 = L.marker(
+                [19.7830517183, 45.2719896416],
+                {}
+            ).addTo(map_a1a69466bbdf459596bac67261157d20);
+        
+    
+        var popup_6b217db5a1c34d759036d5a6c01962ed = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f45a8e17ca524595aaea05fe3c3c83bb = $(`<div id="html_f45a8e17ca524595aaea05fe3c3c83bb" style="width: 100.0%; height: 100.0%;">SAJLOVO III</div>`)[0];
+            popup_6b217db5a1c34d759036d5a6c01962ed.setContent(html_f45a8e17ca524595aaea05fe3c3c83bb);
+        
+
+        marker_0e16725106aa4f3eab055748fa13fe86.bindPopup(popup_6b217db5a1c34d759036d5a6c01962ed)
+        ;
+
+        
+    
+    
+            marker_0e16725106aa4f3eab055748fa13fe86.bindTooltip(
+                `<div>
+                     Click For more Info
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_584cdec4f3f946a18b7322f225fa5ee8 = L.marker(
+                [19.7646595404, 45.2568003751],
+                {}
+            ).addTo(map_a1a69466bbdf459596bac67261157d20);
+        
+    
+        var popup_807a0fe673d244d59bc5371b51b4978c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c39fef0e91ea419f955ebee8206240e7 = $(`<div id="html_c39fef0e91ea419f955ebee8206240e7" style="width: 100.0%; height: 100.0%;">VETERNIK-RENO SERVIS</div>`)[0];
+            popup_807a0fe673d244d59bc5371b51b4978c.setContent(html_c39fef0e91ea419f955ebee8206240e7);
+        
+
+        marker_584cdec4f3f946a18b7322f225fa5ee8.bindPopup(popup_807a0fe673d244d59bc5371b51b4978c)
+        ;
+
+        
+    
+    
+            marker_584cdec4f3f946a18b7322f225fa5ee8.bindTooltip(
+                `<div>
+                     Click For more Info
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_d200434df06547c7be17686324511e81 = L.marker(
+                [19.748075, 45.249245],
+                {}
+            ).addTo(map_a1a69466bbdf459596bac67261157d20);
+        
+    
+        var popup_1b80f24f01c84ed588869b36df952167 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_42d1947c1daa41a49636b03604528f64 = $(`<div id="html_42d1947c1daa41a49636b03604528f64" style="width: 100.0%; height: 100.0%;">VETERNIK-BRAĆE TOKIN-OMLADINSKA</div>`)[0];
+            popup_1b80f24f01c84ed588869b36df952167.setContent(html_42d1947c1daa41a49636b03604528f64);
+        
+
+        marker_d200434df06547c7be17686324511e81.bindPopup(popup_1b80f24f01c84ed588869b36df952167)
+        ;
+
+        
+    
+    
+            marker_d200434df06547c7be17686324511e81.bindTooltip(
+                `<div>
+                     Click For more Info
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_a5173fade196401890abbd6e7ddbd58b = L.marker(
+                [19.7534046769, 45.2503360437],
+                {}
+            ).addTo(map_a1a69466bbdf459596bac67261157d20);
+        
+    
+        var popup_5da77e9abbda4622a05c276b0d98baa0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_246a9ce1936d4672a77f27ee6623fcfd = $(`<div id="html_246a9ce1936d4672a77f27ee6623fcfd" style="width: 100.0%; height: 100.0%;">VETERNIK - OMLADINSKA - PIJACA VETERNIK</div>`)[0];
+            popup_5da77e9abbda4622a05c276b0d98baa0.setContent(html_246a9ce1936d4672a77f27ee6623fcfd);
+        
+
+        marker_a5173fade196401890abbd6e7ddbd58b.bindPopup(popup_5da77e9abbda4622a05c276b0d98baa0)
+        ;
+
+        
+    
+    
+            marker_a5173fade196401890abbd6e7ddbd58b.bindTooltip(
+                `<div>
+                     Click For more Info
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_da3f6babacfe4a8691201f737792a322 = L.marker(
+                [19.78086, 45.270245],
+                {}
+            ).addTo(map_a1a69466bbdf459596bac67261157d20);
+        
+    
+        var popup_8d4b736863914b049d5d880d97e46c2f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d438fd66ad234ee097cfe910bbc3c1bf = $(`<div id="html_d438fd66ad234ee097cfe910bbc3c1bf" style="width: 100.0%; height: 100.0%;">DONJE SAJLOVO-DR. MILOŠA KRNE</div>`)[0];
+            popup_8d4b736863914b049d5d880d97e46c2f.setContent(html_d438fd66ad234ee097cfe910bbc3c1bf);
+        
+
+        marker_da3f6babacfe4a8691201f737792a322.bindPopup(popup_8d4b736863914b049d5d880d97e46c2f)
+        ;
+
+        
+    
+    
+            marker_da3f6babacfe4a8691201f737792a322.bindTooltip(
+                `<div>
+                     Click For more Info
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_68db813239234a289b91c28a9884436b = L.marker(
+                [19.7572312271, 45.2492300271],
+                {}
+            ).addTo(map_a1a69466bbdf459596bac67261157d20);
+        
+    
+        var popup_a14c5a4a8e6347178fd7a812ad93e550 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ad2239ecd5264b0b9a280b879438525e = $(`<div id="html_ad2239ecd5264b0b9a280b879438525e" style="width: 100.0%; height: 100.0%;">VETERNIK - PRAVOSLAVNA CRKVA</div>`)[0];
+            popup_a14c5a4a8e6347178fd7a812ad93e550.setContent(html_ad2239ecd5264b0b9a280b879438525e);
+        
+
+        marker_68db813239234a289b91c28a9884436b.bindPopup(popup_a14c5a4a8e6347178fd7a812ad93e550)
+        ;
+
+        
+    
+    
+            marker_68db813239234a289b91c28a9884436b.bindTooltip(
+                `<div>
+                     Click For more Info
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_9484c5cf5d06490ca9eb90a2ff46ef7b = L.marker(
+                [19.758905971, 45.2595710981],
+                {}
+            ).addTo(map_a1a69466bbdf459596bac67261157d20);
+        
+    
+        var popup_69070264d4af4c4fbd4ac6476857b453 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4c365993aaa5435e94c255c758430797 = $(`<div id="html_4c365993aaa5435e94c255c758430797" style="width: 100.0%; height: 100.0%;">VETERNIK - VOJVODE PUTNIKA 16</div>`)[0];
+            popup_69070264d4af4c4fbd4ac6476857b453.setContent(html_4c365993aaa5435e94c255c758430797);
+        
+
+        marker_9484c5cf5d06490ca9eb90a2ff46ef7b.bindPopup(popup_69070264d4af4c4fbd4ac6476857b453)
+        ;
+
+        
+    
+    
+            marker_9484c5cf5d06490ca9eb90a2ff46ef7b.bindTooltip(
+                `<div>
+                     Click For more Info
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_a73998e79a774de6bc2423c971591420 = L.marker(
+                [19.7562757223, 45.2563655281],
+                {}
+            ).addTo(map_a1a69466bbdf459596bac67261157d20);
+        
+    
+        var popup_6af7c9905f6549a2b41e5c0ea03b63f5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0283a901aacd4d4e8fffb205d8649f7e = $(`<div id="html_0283a901aacd4d4e8fffb205d8649f7e" style="width: 100.0%; height: 100.0%;">VETERNIK - VOJVODE BOJOVIĆA 57</div>`)[0];
+            popup_6af7c9905f6549a2b41e5c0ea03b63f5.setContent(html_0283a901aacd4d4e8fffb205d8649f7e);
+        
+
+        marker_a73998e79a774de6bc2423c971591420.bindPopup(popup_6af7c9905f6549a2b41e5c0ea03b63f5)
+        ;
+
+        
+    
+    
+            marker_a73998e79a774de6bc2423c971591420.bindTooltip(
+                `<div>
+                     Click For more Info
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_78016ffc513f49ba8997b5ba093b0c97 = L.marker(
+                [19.7540706069, 45.2537168486],
+                {}
+            ).addTo(map_a1a69466bbdf459596bac67261157d20);
+        
+    
+        var popup_26c98cfcdcc440f3bdf7d5c631a26d6c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_51ae6c2af05f40b5aae55068f8952a7c = $(`<div id="html_51ae6c2af05f40b5aae55068f8952a7c" style="width: 100.0%; height: 100.0%;">VETERNIK - ŠKOLA</div>`)[0];
+            popup_26c98cfcdcc440f3bdf7d5c631a26d6c.setContent(html_51ae6c2af05f40b5aae55068f8952a7c);
+        
+
+        marker_78016ffc513f49ba8997b5ba093b0c97.bindPopup(popup_26c98cfcdcc440f3bdf7d5c631a26d6c)
+        ;
+
+        
+    
+    
+            marker_78016ffc513f49ba8997b5ba093b0c97.bindTooltip(
+                `<div>
+                     Click For more Info
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_3991cab498d24310bd900b4c927b70f6 = L.marker(
+                [19.7495228035, 45.2527996498],
+                {}
+            ).addTo(map_a1a69466bbdf459596bac67261157d20);
+        
+    
+        var popup_5cf45277a3a64707bc39980886b4c05b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6f2d3eb318884ee7a1c6853caa11a5d5 = $(`<div id="html_6f2d3eb318884ee7a1c6853caa11a5d5" style="width: 100.0%; height: 100.0%;">VETERNIK - GASNA PODSTANICA</div>`)[0];
+            popup_5cf45277a3a64707bc39980886b4c05b.setContent(html_6f2d3eb318884ee7a1c6853caa11a5d5);
+        
+
+        marker_3991cab498d24310bd900b4c927b70f6.bindPopup(popup_5cf45277a3a64707bc39980886b4c05b)
+        ;
+
+        
+    
+    
+            marker_3991cab498d24310bd900b4c927b70f6.bindTooltip(
+                `<div>
+                     Click For more Info
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_cd844d1411674aba80c7fcdf99b22174 = L.marker(
+                [19.8148147237, 45.2660444179],
+                {}
+            ).addTo(map_a1a69466bbdf459596bac67261157d20);
+        
+    
+        var popup_e07e5b773b7942ecaf1b079470ef64a8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_cdb3b1f2e5964501a77005577c9db1b4 = $(`<div id="html_cdb3b1f2e5964501a77005577c9db1b4" style="width: 100.0%; height: 100.0%;">RUMENAČKA - RADNIČKO IGRALIŠTE</div>`)[0];
+            popup_e07e5b773b7942ecaf1b079470ef64a8.setContent(html_cdb3b1f2e5964501a77005577c9db1b4);
+        
+
+        marker_cd844d1411674aba80c7fcdf99b22174.bindPopup(popup_e07e5b773b7942ecaf1b079470ef64a8)
+        ;
+
+        
+    
+    
+            marker_cd844d1411674aba80c7fcdf99b22174.bindTooltip(
+                `<div>
+                     Click For more Info
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_0b4ad95dedd34b628b714bc4e5505927 = L.marker(
+                [19.7636929212, 45.2476834381],
+                {}
+            ).addTo(map_a1a69466bbdf459596bac67261157d20);
+        
+    
+        var popup_5f353322716646b093e3626640353a25 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_af9eee300bf04e5a9e334d8ead74e891 = $(`<div id="html_af9eee300bf04e5a9e334d8ead74e891" style="width: 100.0%; height: 100.0%;">VETERNIK - NOVOS. PUT - SONJE MARINKOVIĆ</div>`)[0];
+            popup_5f353322716646b093e3626640353a25.setContent(html_af9eee300bf04e5a9e334d8ead74e891);
+        
+
+        marker_0b4ad95dedd34b628b714bc4e5505927.bindPopup(popup_5f353322716646b093e3626640353a25)
+        ;
+
+        
+    
+    
+            marker_0b4ad95dedd34b628b714bc4e5505927.bindTooltip(
+                `<div>
+                     Click For more Info
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_c22af514cf4e43f1886856f7285b755d = L.marker(
+                [19.7680295823, 45.2466526277],
+                {}
+            ).addTo(map_a1a69466bbdf459596bac67261157d20);
+        
+    
+        var popup_42ac5896be9049f3911c847a56c02e74 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2fcd71fe18554e3d90848a3d45b0157b = $(`<div id="html_2fcd71fe18554e3d90848a3d45b0157b" style="width: 100.0%; height: 100.0%;">VETERNIK - FEŠTER</div>`)[0];
+            popup_42ac5896be9049f3911c847a56c02e74.setContent(html_2fcd71fe18554e3d90848a3d45b0157b);
+        
+
+        marker_c22af514cf4e43f1886856f7285b755d.bindPopup(popup_42ac5896be9049f3911c847a56c02e74)
+        ;
+
+        
+    
+    
+            marker_c22af514cf4e43f1886856f7285b755d.bindTooltip(
+                `<div>
+                     Click For more Info
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b27313f8a6634e9c95b32cc14fa6a53a = L.marker(
+                [19.7751981963, 45.2448774927],
+                {}
+            ).addTo(map_a1a69466bbdf459596bac67261157d20);
+        
+    
+        var popup_a40d755ee2fa4da8ae7aed5692f8ddba = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c500a6cc5bb34a5993db9b58e4069f86 = $(`<div id="html_c500a6cc5bb34a5993db9b58e4069f86" style="width: 100.0%; height: 100.0%;">SPORTSKI CENTAR</div>`)[0];
+            popup_a40d755ee2fa4da8ae7aed5692f8ddba.setContent(html_c500a6cc5bb34a5993db9b58e4069f86);
+        
+
+        marker_b27313f8a6634e9c95b32cc14fa6a53a.bindPopup(popup_a40d755ee2fa4da8ae7aed5692f8ddba)
+        ;
+
+        
+    
+    
+            marker_b27313f8a6634e9c95b32cc14fa6a53a.bindTooltip(
+                `<div>
+                     Click For more Info
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_aaa36ab5aa6740349ae75214af4e2347 = L.marker(
+                [19.7826331453, 45.2435354955],
+                {}
+            ).addTo(map_a1a69466bbdf459596bac67261157d20);
+        
+    
+        var popup_a6a57c02a19f4138b3a57fdad357e978 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6a5eebb2235a473099fe3b7f70b74ae7 = $(`<div id="html_6a5eebb2235a473099fe3b7f70b74ae7" style="width: 100.0%; height: 100.0%;">NOVOSADSKI PUT - STEVANA SINĐELIĆA</div>`)[0];
+            popup_a6a57c02a19f4138b3a57fdad357e978.setContent(html_6a5eebb2235a473099fe3b7f70b74ae7);
+        
+
+        marker_aaa36ab5aa6740349ae75214af4e2347.bindPopup(popup_a6a57c02a19f4138b3a57fdad357e978)
+        ;
+
+        
+    
+    
+            marker_aaa36ab5aa6740349ae75214af4e2347.bindTooltip(
+                `<div>
+                     Click For more Info
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_bffe1ad43bdb47768f6fe30dc4f192b1 = L.marker(
+                [19.7880484583, 45.2431816762],
+                {}
+            ).addTo(map_a1a69466bbdf459596bac67261157d20);
+        
+    
+        var popup_3a621c50ca92431bb83d735b39e9bc47 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8998b5f62ce04139995b9921c8616984 = $(`<div id="html_8998b5f62ce04139995b9921c8616984" style="width: 100.0%; height: 100.0%;">FUTOŠKI PUT - BENZINSKA PUMPA</div>`)[0];
+            popup_3a621c50ca92431bb83d735b39e9bc47.setContent(html_8998b5f62ce04139995b9921c8616984);
+        
+
+        marker_bffe1ad43bdb47768f6fe30dc4f192b1.bindPopup(popup_3a621c50ca92431bb83d735b39e9bc47)
+        ;
+
+        
+    
+    
+            marker_bffe1ad43bdb47768f6fe30dc4f192b1.bindTooltip(
+                `<div>
+                     Click For more Info
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_fe67ad86e6ed4a588718744197af21a5 = L.marker(
+                [19.792701, 45.243705],
+                {}
+            ).addTo(map_a1a69466bbdf459596bac67261157d20);
+        
+    
+        var popup_79d886f0a2054ea887fc83c0a10af709 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_dbe29512b83e410395e3ec3e017e3172 = $(`<div id="html_dbe29512b83e410395e3ec3e017e3172" style="width: 100.0%; height: 100.0%;">FUTOŠKI PUT - GARAŽA GSP</div>`)[0];
+            popup_79d886f0a2054ea887fc83c0a10af709.setContent(html_dbe29512b83e410395e3ec3e017e3172);
+        
+
+        marker_fe67ad86e6ed4a588718744197af21a5.bindPopup(popup_79d886f0a2054ea887fc83c0a10af709)
+        ;
+
+        
+    
+    
+            marker_fe67ad86e6ed4a588718744197af21a5.bindTooltip(
+                `<div>
+                     Click For more Info
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_96f0acae0c6a46a89901153054886510 = L.marker(
+                [19.76754, 45.258963],
+                {}
+            ).addTo(map_a1a69466bbdf459596bac67261157d20);
+        
+    
+        var popup_fa4006525b3f4acbafed17a92e1d7273 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a594285d6ca2417d981bfbb71559f223 = $(`<div id="html_a594285d6ca2417d981bfbb71559f223" style="width: 100.0%; height: 100.0%;">VETERNIK-SAVKE SUBOTIĆ</div>`)[0];
+            popup_fa4006525b3f4acbafed17a92e1d7273.setContent(html_a594285d6ca2417d981bfbb71559f223);
+        
+
+        marker_96f0acae0c6a46a89901153054886510.bindPopup(popup_fa4006525b3f4acbafed17a92e1d7273)
+        ;
+
+        
+    
+    
+            marker_96f0acae0c6a46a89901153054886510.bindTooltip(
+                `<div>
+                     Click For more Info
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_cf290a4fadbe4555b60ee007e965f458 = L.marker(
+                [19.8303881347, 45.2650262948],
+                {}
+            ).addTo(map_a1a69466bbdf459596bac67261157d20);
+        
+    
+        var popup_dc16b1c6657d4912823f8cbe68db4b26 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_211f6af2e1fc4b21b6196903fab8042b = $(`<div id="html_211f6af2e1fc4b21b6196903fab8042b" style="width: 100.0%; height: 100.0%;">ŽELEZNIČKA STANICA TERMINAL</div>`)[0];
+            popup_dc16b1c6657d4912823f8cbe68db4b26.setContent(html_211f6af2e1fc4b21b6196903fab8042b);
+        
+
+        marker_cf290a4fadbe4555b60ee007e965f458.bindPopup(popup_dc16b1c6657d4912823f8cbe68db4b26)
+        ;
+
+        
+    
+    
+            marker_cf290a4fadbe4555b60ee007e965f458.bindTooltip(
+                `<div>
+                     Click For more Info
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_11526062c7654597a38f673ea1d3c407 = L.marker(
+                [19.8182127414, 45.2633439588],
+                {}
+            ).addTo(map_a1a69466bbdf459596bac67261157d20);
+        
+    
+        var popup_ab805f56671749b48b67ff49b49ad8dd = L.popup({"maxWidth": "100%"});
+
+        
+            var html_20170eec93154e0bb45958f70d14cd0c = $(`<div id="html_20170eec93154e0bb45958f70d14cd0c" style="width: 100.0%; height: 100.0%;">RUMENAČKA - BUL. JAŠE TOMIĆA</div>`)[0];
+            popup_ab805f56671749b48b67ff49b49ad8dd.setContent(html_20170eec93154e0bb45958f70d14cd0c);
+        
+
+        marker_11526062c7654597a38f673ea1d3c407.bindPopup(popup_ab805f56671749b48b67ff49b49ad8dd)
+        ;
+
+        
+    
+    
+            marker_11526062c7654597a38f673ea1d3c407.bindTooltip(
+                `<div>
+                     Click For more Info
+                 </div>`,
+                {"sticky": true}
+            );
+        
+</script>

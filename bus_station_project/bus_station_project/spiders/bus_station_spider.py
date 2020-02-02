@@ -7,12 +7,13 @@ import pandas as pd
 import re
 import ast
 import pickle
+import os
 
 class BusStationSpider(scrapy.Spider):
     name = "bus_station"
     allowed_domains = ['www.gspns.rs']
     # Getting url from local bus company and scraping data for each bus
-    start_urls = ['http://www.gspns.rs/mreza-get-stajalista-tacke?linija=1']
+    start_urls = ['http://www.gspns.rs/mreza-get-stajalista-tacke?linija=83']
     lists = []
     for url in start_urls:
         def parse(self, response):
@@ -38,10 +39,16 @@ class BusStationSpider(scrapy.Spider):
     
             # Pair Data in Tuple
             # Maybe is better to create Dictionaries!
-            result = list(zip(name_of_bus_station,parsed_buses_temp,parsed_lon,parsed_lat))
+
             
-            with open(r'bus_station_django_project\data.pickle', 'wb') as outfile:
-                pickle.dump(result, outfile)
+    
+            
+
+            result = [{"Name": n,"buses": b,"Latitude": lat,"Longtitude": lon} for n, b, lat, lon in zip(name_of_bus_station, parsed_buses_temp, parsed_lat, parsed_lon)]
+
+            #path = '/home/vlada/Documents/Projects/Bus-station/Bus-station-webscraping/bus_station_project/bus_station_django_project/bus_station_app'
+            with open(r'/home/vlada/Documents/Projects/Bus-station/Bus-station-webscraping/bus_station_project/bus_station_django_project/test83.json', 'w') as outfile:
+                json.dump(result, outfile)
         
         
         
